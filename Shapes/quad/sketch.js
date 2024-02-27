@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
   translate( width / 2, height / 2);
-  background('lightgrey');
+  background('slategrey');
   stroke('white');
   rectMode(CENTER);
   quad(

@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
   noLoop();
-  background('lightgrey');
+  background('slategrey');
   stroke('white');
   fill('white');
   beginShape(LINES);
@@ -35,13 +35,13 @@ function draw() {
     vertex(p3.x, p3.y);
     vertex(p4.x, p4.y);
   endShape(CLOSE);
-  fill('red');
+  fill('pink');
   ellipse(p1.x, p1.y, 10, 10);
-  fill('green');
+  fill('pink');
   ellipse(p2.x, p2.y, 10, 10);
-  fill('blue');
+  fill('pink');
   ellipse(p3.x, p3.y, 10, 10);
-  fill('yellow');
+  fill('pink');
   ellipse(p4.x, p4.y, 10, 10);
 
   beginShape(POINTS);

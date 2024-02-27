@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
   translate( width / 2, height / 2);
-  background('lightgrey');
+  background('slategrey');
   stroke('white');
   triangle(0, 0 - offset, offset, offset, 0 - offset, offset);
 }

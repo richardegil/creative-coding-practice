@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
   translate( width / 2, height / 2);
-  background('lightgrey');
+  background('slategrey');
   rectMode(CENTER);
   stroke('white');
   square(0, 0, width * 0.2, width * 0.01, width * 0.1, width * 0.05, 0);

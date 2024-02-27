@@ -20,12 +20,15 @@ function setup() {
 
 function draw() {
   translate( width / 2, height / 2);
-  background('lightgrey');
+  background('slategrey');
   stroke('white');
   noFill();
   arc(0, 0, width * 0.5, width * 0.5, 0, HALF_PI);
+  fill('white');
   arc(0, 0, width * 0.5, width * 0.5, HALF_PI, PI, CHORD);
+  noFill();
   arc(0, 0, width * 0.5, width * 0.5, PI, PI + QUARTER_PI, PIE);
+  fill('white');
   arc(0, 0, width * 0.5, width * 0.5, PI + HALF_PI, 0, PIE);
 
 }

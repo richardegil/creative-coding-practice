@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
   translate( width * 0.5, height * 0.5);
-  background('lightgrey');
+  background('slategrey');
   stroke('white');
   strokeWeight(4);
   line(0 - width * 0.2, 0, width * 0.2, 0);
